@@ -1,0 +1,55 @@
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+    margin-right: 600px;
+
+}
+#tin1 {
+    width: 250px;
+    height: 150px;
+
+}
+#tin2 {
+    width: 250px;
+    height: 150px;
+
+}
+#tin3 {
+    width: 250px;
+    height: 150px;
+
+}
+#tin4 {
+    width: 250px;
+    height: 150px;
+
+}
+#tin5 {
+    width: 250px;
+    height: 150px;
+
+}
+.tt {
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.tintuc {
+    width: 100%;
+    float: left;
+    /*border-collapse: collapse;*/
+    /*border: 1px solid black;*/
+
+}
+.tintuca {
+    width: 30%;
+    float: left;
+}
+.tintucb {
+    width: 70%;
+    float: left;
+    text-align: left;
+}

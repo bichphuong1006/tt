@@ -1,0 +1,71 @@
+body {
+    background: white;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+
+ol {
+    font-family: Verdana;
+    font-size: 20px;
+}
+#tittle1 {
+    color: brown;
+    font-weight: bold;
+}
+#tittle2 {
+    color: blue;
+    font-style: italic;
+}
+#tittle3 {
+    color: red;
+}
+#tittle4 {
+    color: brown;
+    font-style: oblique;
+}
+#tittle5 {
+    color: darkviolet;
+    font-weight: bolder;
+}
+.name {
+    color: gold;
+}
+.name1 {
+    color: blueviolet;
+}
+.name2 {
+    color: aqua;
+}
+.name3 {
+    color: chartreuse;
+}
+
+.name4 {
+    color: darkorchid;
+    font-style: oblique;
+}
+p {
+    margin: 30px 50px 20px 25px;
+    padding: 20px 15px 30px;
+    border: 1px solid black;
+    /*text-align: center;*/
+}
+
+#i1 {
+    width:60%;
+    margin-left: 90px;
+}
+#i2 {
+    width: 50%;
+    margin-left: 90px;
+}
+.a1 {
+    width: 50%;
+    float: left;
+}
+.a2 {
+    width: 50%;
+    float: left;
+}

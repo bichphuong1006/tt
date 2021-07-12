@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành 3</title>
+    <link rel="stylesheet" href="thuchanh3.css">
+</head>
+<body>
+        <table>
+            <tr>
+                <th id="stt"></th>
+                <th><p id="name"></p></th>
+                <th><p id="score"></p></th>
+                <th><p id="email"></p></th>
+            </tr>
+            <tr>
+                <td><p id="stt1"></p></td>
+                <td><p id="name1"></p></td>
+                <td><p id="score1"></p></td>
+                <td><p id="email1"></p></td>
+            </tr>
+            <tr>
+                <td><p id="stt2"></p></td>
+                <td><p id="name2"></p></td>
+                <td><p id="score2"></p></td>
+                <td><p id="email2">sally123@gmail.com</p>
+                    <button type="button" onClick="document.getElementById('email2').style.fontSize='35px'"></button>
+                </td>
+            </tr>
+            <tr>
+                <td><p id="stt3"></p></td>
+                <td><p id="name3"></p></td>
+                <td><p id="score3">73.5</p>
+                    <button type="button" onClick="document.getElementById('score3').style.display='none'"></button>
+                </td>
+                <td><p id="email3"></p></td>
+            </tr>
+            <tr>
+                <td><p id="stt4"></p></td>
+                <td><p id="name4"></p></td>
+                <td><p id="score4"></p></td>
+                <td><p id="email4"></p></td>
+            </tr>
+            <tr>
+                <td><p id="stt5"></p></td>
+                <td><p id="name5" style="color: blue">Miriam Tran</p>
+                    <button type="button" onClick="document.getElementById('name5').style.color='red'"></button>
+                </td>
+                <td><p id="score5"></p></td>
+                <td><p id="email5"></p></td>
+            </tr>
+        </table>
+</body>
+</html>
+<script>
+    console.log(1)
+    document.getElementById("stt").innerHTML = "STT";
+    document.getElementById("name").innerHTML = "Name";
+    document.getElementById("score").innerHTML = "Score";
+    document.getElementById("email").innerHTML = "Email";
+    document.getElementById("stt1").innerHTML = "1";
+    document.getElementById("name1").innerHTML = "Domenic";
+    document.getElementById("score1").innerHTML = "88.11";
+    document.getElementById("email1").innerHTML = "dometic123@gmail.com";
+    document.getElementById("stt2").innerHTML = "2";
+    document.getElementById("name2").innerHTML = "Sally";
+    document.getElementById("score2").innerHTML = "72.43";
+    document.getElementById("stt3").innerHTML = "3";
+    document.getElementById("name3").innerHTML = "Mike Jackson";
+    document.getElementById("email3").innerHTML = "jacksonmike22@gmail.com";
+    document.getElementById("stt4").innerHTML = "4";
+    document.getElementById("name4").innerHTML = "Sally Huy";
+    document.getElementById("score4").innerHTML = "78.6";
+    document.getElementById("email4").innerHTML = "huysally98@gmail.com";
+    document.getElementById("stt5").innerHTML = "5";
+    document.getElementById("score5").innerHTML = "92.0";
+    document.getElementById("email5").innerHTML = "mariam19@gmail.com";
+
+    var count = 0
+    for ( var  i = 5; i < 10; i++) {
+        count++;
+    }
+
+    var i2 = 100;
+    var count2 = 1;
+
+    do {
+        count2++;
+        i2++;
+    } while ( i2 < 100);
+
+    document.getElementById("stt").innerHTML = i2;
+    document.getElementById("name").innerHTML = count2;
+
+    var i3 = 100;
+    var count3 = 1;
+    while ( i3 < 100) {
+        i3++;
+        count3++;
+    }
+
+    document.getElementById("score").innerHTML = i3;
+    document.getElementById("email").innerHTML = count3;
+</script>

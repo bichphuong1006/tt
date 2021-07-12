@@ -1,0 +1,43 @@
+#text {
+    width: 10px;
+}
+.login {
+    margin: 10px 450px 20px;
+    border-collapse: separate;
+    border: 5px solid darkslategrey;
+    background-color: #dddddd;
+}
+h3 {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-collapse: collapse;
+    color: red;
+    border: 1px solid black;
+}
+h4 {
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-collapse: collapse;
+    background-color: dimgray;
+    border: 3px solid black;
+}
+th {
+    font-size: 16px;
+    padding: 8px;
+    text-align: left;
+}
+#a1 {
+    float: left;
+}
+#a2 {
+    float: left;
+}
+#a3 {
+    float: left;
+}
+.bang {
+    margin-left: 150px;
+    margin-right: 160px;
+}

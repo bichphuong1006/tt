@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    color: #009969;
+}
+.text {
+    background: yellowgreen;
+}
+.text1 {
+    background: lavender;
+}
+.text2 {
+    background: wheat;
+}
+.text3 {
+    background: darkseagreen;
+}
+.text4 {
+    background: bisque;
+}
+.text5 {
+    background: darkkhaki;
+}
